@@ -1,6 +1,9 @@
 name: Build Windows EXE
 
-on: [push]
+on:
+  push:
+    tags:
+      - "v*"
 
 jobs:
   build:
@@ -17,7 +20,9 @@ jobs:
 
       - run: pyinstaller --onefile main.py
 
-      - uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: NWapp_Win_Exe
-          path: dist/*.exe
+          files: dist/*.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
