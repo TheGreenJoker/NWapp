@@ -18,7 +18,7 @@ jobs:
 
       - run: pip install pyinstaller requests flask
 
-      - run: pyinstaller --onefile main.py
+      - run: pyinstaller --onefile --name NWapp main.py
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
