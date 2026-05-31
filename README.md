@@ -1,6 +1,6 @@
 Calculateur de fabrication EVE Online. Interface web locale pour explorer l'arbre de matériaux d'un blueprint, estimer les temps de production et les coûts en ISK.
 
-## 📦 Téléchargement
+## 📦 Téléchargement Automatique (binaire)
 
 👉 Dernières versions ici : https://github.com/TheGreenJoker/NWapp/releases
 
@@ -18,18 +18,19 @@ Calculateur de fabrication EVE Online. Interface web locale pour explorer l'arbr
 
 ---
 
-## Installation
+## Installation Manuelle
 
+**note :** L'utilisation du binaire ne nésséssite **aucune installations**.
 **Prérequis :** Python 3.8+
-
 ```bash
 pip install flask requests
 ```
 
 ---
 
-## Utilisation
+## Utilisation Manuelle
 
+**note :** L'utilisation du binaire ne nésséssite **aucune base de données**.
 1. Place `blueprints.jsonl` dans le même dossier que `app.py`
 2. Lance le serveur :
 
