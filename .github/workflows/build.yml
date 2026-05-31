@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: pip install pyinstaller
+      - run: pip install pyinstaller, requests, flask
 
       - run: pyinstaller --onefile main.py
 
