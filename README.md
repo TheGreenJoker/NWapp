@@ -1,7 +1,3 @@
-## 📦 Téléchargement
-
-👉 Dernières versions ici : https://github.com/TheGreenJoker/NWapp/releases# EVE Industry — Blueprint Calculator
-
 Calculateur de fabrication EVE Online. Interface web locale pour explorer l'arbre de matériaux d'un blueprint, estimer les temps de production et les coûts en ISK.
 
 ## 📦 Téléchargement
