@@ -2,7 +2,7 @@ Calculateur de fabrication EVE Online. Interface web locale pour explorer l'arbr
 
 ## 📦 Téléchargement Automatique (binaire)
 
-👉 Dernières versions ici : https://github.com/TheGreenJoker/NWapp/releases
+👉 Dernières versions ici : https://github.com/TheGreenJoker/NWapp/releases  
 une fois le programme lancé, se connecter à **http://localhost:5000**
 
 ---
@@ -21,7 +21,7 @@ une fois le programme lancé, se connecter à **http://localhost:5000**
 
 ## Installation Manuelle
 
-**note :** L'utilisation du binaire ne nésséssite **aucune installations**.
+**note :** L'utilisation du binaire ne nésséssite **aucune installations**.  
 **Prérequis :** Python 3.8+
 ```bash
 pip install flask requests
