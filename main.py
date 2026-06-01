@@ -5111,7 +5111,7 @@ def load_recipes(file=BP_FILE):
     try:
         #with open(file, "r", encoding="utf-8") as f:
         if True:
-            f =RAW_BP_FILE
+            f = RAW_BP_FILE.split('\n')
             for line in f:
                 try:
                     obj = json.loads(line)
