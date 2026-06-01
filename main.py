@@ -5112,7 +5112,8 @@ def load_recipes(file=BP_FILE):
     recipes = {}
     try:
         #with open(file, "r", encoding="utf-8") as f:
-        with RAW_BP_FILE as f:
+        if True:
+            f =RAW_BP_FILE
             for line in f:
                 try:
                     obj = json.loads(line)
