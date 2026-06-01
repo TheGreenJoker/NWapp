@@ -3,6 +3,7 @@ Calculateur de fabrication EVE Online. Interface web locale pour explorer l'arbr
 ## 📦 Téléchargement Automatique (binaire)
 
 👉 Dernières versions ici : https://github.com/TheGreenJoker/NWapp/releases
+une fois le programme lancé, se connecter à **http://localhost:5000**
 
 ---
 
